@@ -1,0 +1,11 @@
+name: env_thesisbr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - loguru
+  - python-dotenv
+  - pandas
+  - openpyxl
+  - httpx

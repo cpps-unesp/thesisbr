@@ -1,3 +1,102 @@
 # ThesisBR – Brazilian Theses & Dissertations
 
 - Catálogo de Teses e Dissertações da Capes
+
+
+# Instalação
+
+## Versionamento
+
+Se essa é a primeira vez que você irá baixar/clonar esse repositório, veja as instruções indicadas nesta [página](https://labriunesp.org/docs/projetos/sistemas/cadernos/versionamento).
+
+Caso já tenha baixado/clonado esse repositório os comandos abaixo são usualmente utilizados para versionar e sincronizar o seu repositório local com o remoto.
+
+### ETAPA 00: Clonar o repositório
+
+De preferência para clonar o repositório via SSH. Para instruções de como configurar o ssh [clique aqui](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/versionamento/chave-ssh)
+
+
+#### Clone com SSH
+
+```
+git clone git@github.com:cpps-unesp/thesisbr.git
+
+```
+
+#### Clone com HTTPS
+
+```
+git clone https://github.com/cpps-unesp/thesisbr.git
+
+```
+
+### ETAPA 01: Gravando mudanças
+
+Utilize o seguinte comando para gravar modificações feitas no código:
+
+``` git add . && git commit -m 'inserir mensagem' ```
+
+**Onde:**
+
+`git add .` adiciona as últimas mudanças nos conteúdos do diretório atual (referida como `.`) à lista de mudanças a serem gravadas no repositório. Deve ser efetuado sempre que novas mudanças são feitas.
+
+`&&` encadeia comandos para que sejam executados sequencialmente.
+
+`git commit` "comete" as mudanças feitas nos arquivos monitorados, gravando-as no repositório.
+
+`-m 'mensagem'` especifica mensagem que descreva as mudanças. A descrição deve estar entre aspas simples ou duplas.
+
+
+### ETAPA 02: Sincronizando o repositório
+
+Ao usar os comandos acima, as mudanças são salvas (gravadas) apenas na sua máquina local.
+
+É necessário sincronizar o repositório local com o repositório remoto, o que é feito através dos seguinte comando:
+
+```git pull origin main && git push origin main```
+
+**Onde:**
+
+`git pull origin main` sincroniza todos os commits mais recentes do repositório remoto e os integra no repositório local.
+
+`git push origin main` envia as alterações do repositório local para o repositório remoto 
+
+ o `origin main` são argumentos para especificar que a origem dos commits a serem integrados é o ramo `main` do repositório remoto. Estes argumentos não são mandatório, no entanto, explicitá-los garante que não hajam conflitos.
+
+ - É importante que qualquer mudança no repositório seja salva/gravada (ver etapa 01) antes da sincronização com o repositório remoto (etapa 02). 
+ - Recomendamos que o `git pull` sempre ser executado antes de `git push` para evitar conflitos ao mesclar as modificações do repositório local com o remoto.
+
+# Criação do ambiente virtual
+
+Vá a raiz do repositório. Em geral, a raiz do repositório é a pasta com o nome do projeto, nesse caso `thesisbr`
+
+### Etapa 01: Configuração e criação do ambiente virtual
+
+```
+conda config --set pip_interop_enabled True && conda config --set env_prompt '({name})' && conda config --add envs_dirs ./env && conda env create -f environment.yml 
+```
+
+### Etapa 02: Ativar o ambiente virtual
+
+. A partir dessa pasta, ative o ambiente a partir do seguinte comando:
+
+``` conda activate env_thesisbr ```
+
+
+## 📁 Estrutura do Projeto
+
+```
+thesisbr/
+ ├── thesisbr/          # pacote python
+ ├── notebooks/         # exemplos
+ ├── app/               # NiceGUI
+ ├── docs/              # Starlight
+ │    ├── public/       
+ │    ├── src/content/  
+ │    │    └── docs/    # páginas de documentação
+ │    └── astro.config.mjs
+ ├── package.json
+ ├── README.md
+ └── ...
+
+ ```
