@@ -1,6 +1,6 @@
 # ThesisBR – Brazilian Theses & Dissertations
 
-- Catálogo de Teses e Dissertações da Capes
+O ThesisBr visa facilitar a utilização do [Catálogo de Teses e Dissertações da Capes](https://dadosabertos.capes.gov.br/group/catalogo-de-teses-e-dissertacoes-brasil)
 
 
 # Instalação
