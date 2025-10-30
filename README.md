@@ -3,7 +3,7 @@
 O ThesisBr visa facilitar a utilização do [Catálogo de Teses e Dissertações da Capes](https://dadosabertos.capes.gov.br/group/catalogo-de-teses-e-dissertacoes-brasil)
 
 
-# Instalação
+## Instalação
 
 De preferência para instalar o repositório via SSH. Para instruções de como configurar o ssh [clique aqui](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/versionamento/chave-ssh)
 
