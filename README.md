@@ -22,6 +22,10 @@ git clone https://github.com/cpps-unesp/thesisbr.git
 
 ```
 
+## Versionamento
+
+Abaixo são as nistruções para a realização do versiamentos de suas contribuições
+
 ### ETAPA 01: Gravando mudanças
 
 Utilize o seguinte comando para gravar modificações feitas no código:
