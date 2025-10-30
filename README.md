@@ -5,18 +5,10 @@
 
 # Instalação
 
-## Versionamento
-
-Se essa é a primeira vez que você irá baixar/clonar esse repositório, veja as instruções indicadas nesta [página](https://labriunesp.org/docs/projetos/sistemas/cadernos/versionamento).
-
-Caso já tenha baixado/clonado esse repositório os comandos abaixo são usualmente utilizados para versionar e sincronizar o seu repositório local com o remoto.
-
-### ETAPA 00: Clonar o repositório
-
-De preferência para clonar o repositório via SSH. Para instruções de como configurar o ssh [clique aqui](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/versionamento/chave-ssh)
+De preferência para instalar o repositório via SSH. Para instruções de como configurar o ssh [clique aqui](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/versionamento/chave-ssh)
 
 
-#### Clone com SSH
+#### Via SSH
 
 ```
 git clone git@github.com:cpps-unesp/thesisbr.git
