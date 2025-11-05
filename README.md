@@ -11,7 +11,22 @@ Uma descrição bem elaborada permite que você mostre seu trabalho a outros des
 
 ## Índice (Opcional)
 Se o seu arquivo README for muito extenso, talvez seja interessante adicionar um sumário para facilitar a navegação dos usuários entre as diferentes seções. Isso tornará a leitura do projeto mais fácil e intuitiva.
+
 ## Instalação
+
+Para acessar o site é necessário rodar o código abaixo no seu terminal, sua função é justamente para que o site funcione: 
+
+``` bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+``` 
+
+Pra utilizar o Projeto deve ser inserido no terminal este código que permitirá acesso, abrirá o site: 
+```bash
+cd docs && npm i && npm run dev
+```
+
 Incluir as etapas necessárias para instalar o projeto e também as dependências necessárias, se houver.
 Forneça uma descrição passo a passo de como configurar e executar o ambiente de desenvolvimento.
 
