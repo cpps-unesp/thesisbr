@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://cpps-unesp.github.io',
+	base: '/thesisbr/',
 	integrations: [
 		starlight({
 			title: 'My Docs',
