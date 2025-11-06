@@ -10,20 +10,22 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
+					label: 'Apresentação',
+					autogenerate: { directory: 'thesisbr' },
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Teste Guide', slug: 'guides/teste' },
 					],
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
-				{
-					label: 'Apresentação',
-					autogenerate: { directory: 'thesisbr' },
-				},
+				
 			],
 		}),
 	],
