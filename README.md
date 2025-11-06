@@ -1,81 +1,5 @@
 
 
-#  Título do Projeto
-
-Este é o nome do projeto. Ele descreve todo o projeto em uma frase e ajuda as pessoas a entenderem qual é o objetivo principal e a finalidade do projeto.
-
-# Descrição do Projeto
-Uma descrição bem elaborada permite que você mostre seu trabalho a outros desenvolvedores e também a potenciais empregadores.
-
-
-
-## Índice (Opcional)
-Se o seu arquivo README for muito extenso, talvez seja interessante adicionar um sumário para facilitar a navegação dos usuários entre as diferentes seções. Isso tornará a leitura do projeto mais fácil e intuitiva.
-
-## Instalação
-
-Para acessar o site é necessário rodar o código abaixo no seu terminal, sua função é justamente para que o site funcione: 
-
-``` bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-source ~/.bashrc
-nvm install --lts
-``` 
-
-Pra utilizar o Projeto deve ser inserido no terminal este código que permitirá acesso, abrirá o site: 
-```bash
-cd docs && npm i && npm run dev
-```
-
-Incluir as etapas necessárias para instalar o projeto e também as dependências necessárias, se houver.
-Forneça uma descrição passo a passo de como configurar e executar o ambiente de desenvolvimento.
-
-Instale my-project com npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
-## Como usar o projeto
-Forneça instruções e exemplos para que os usuários/colaboradores possam usar o projeto. 
-## Autores
-Inclua também links para seus perfis no GitHub e redes sociais.
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
-## Licença
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Insígnias
-Os distintivos não são necessários, mas usá-los é uma maneira simples de mostrar a outros desenvolvedores que você sabe o que está fazendo.
-
-## Como contribuir para o projeto
-Isso será especialmente útil se você estiver desenvolvendo um projeto de código aberto que precisará da contribuição de outros desenvolvedores. Você precisará adicionar diretrizes para que eles saibam como podem contribuir para o seu projeto.
-
-## Testes
-
-Escreva testes para sua aplicação. Em seguida, forneça exemplos de código e instruções sobre como executá-los.
-## Pontos extras
-
-:mag_right:
-## observações 
-
-Caso haja alterações, certifique-se de atualizar o arquivo quando necessário.
-escolha um idioma — Todos nós viemos de regiões diferentes e falamos idiomas diferentes. Mas isso não significa que você precise traduzir seu código para o seu idioma nativo. Escrever seu README em inglês funcionará, já que o inglês é um idioma globalmente aceito.
-Você pode usar uma ferramenta de tradução se o seu público-alvo não estiver familiarizado com o inglês.
-
-
-
-
-
-
-
-###################################################################################################################
-
-
 # ThesisBR – Brazilian Theses & Dissertations
 
 O ThesisBr visa facilitar a utilização do [Catálogo de Teses e Dissertações da Capes](https://dadosabertos.capes.gov.br/group/catalogo-de-teses-e-dissertacoes-brasil)
@@ -83,8 +7,7 @@ O ThesisBr visa facilitar a utilização do [Catálogo de Teses e Dissertações
 
 ## Instalação
 
-De preferência para instalar o repositório via SSH. Para instruções de como configurar o ssh [clique aqui](https://labriunesp.org/docs/projetos/ensino/trilha-dados/ambiente/versionamento/chave-ssh)
-
+De preferência para instalar o repositório via SSH.
 
 #### Via SSH
 
@@ -152,9 +75,11 @@ conda config --set pip_interop_enabled True && conda config --set env_prompt '({
 
 ### Etapa 02: Ativar o ambiente virtual
 
-. A partir dessa pasta, ative o ambiente a partir do seguinte comando:
+A partir dessa pasta, ative o ambiente a partir do seguinte comando:
 
-``` conda activate env_thesisbr ```
+``` 
+conda activate env_thesisbr 
+```
 
 
 ## 📁 Estrutura do Projeto
@@ -174,3 +99,21 @@ thesisbr/
  └── ...
 
  ```
+
+## Para edição do site do projeto
+
+
+### Instalação de depêndecias
+
+``` bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+``` 
+
+### Rodar o site localmente
+
+
+```bash
+cd docs && npm i && npm run dev
+```
