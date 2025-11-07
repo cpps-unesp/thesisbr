@@ -4,10 +4,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://cpps-unesp.github.io',
+	base: '/thesisbr/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'ThesisBr',
+			social: [{ icon: 'github', label: 'GitHub', href: '/utilizacao/introducao' }],
 			sidebar: [
 				{
 					label: 'Sobre',
@@ -32,10 +34,7 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
-				{
-					label: 'Apresentação',
-					autogenerate: { directory: 'thesisbr' },
-				},
+				
 			],
 		}),
 	],
