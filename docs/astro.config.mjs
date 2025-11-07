@@ -12,8 +12,16 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: '/utilizacao/introducao' }],
 			sidebar: [
 				{
-					label: 'Apresentação',
-					autogenerate: { directory: 'thesisbr' },
+					label: 'Sobre',
+					autogenerate: { directory: 'sobre' },
+				},
+				{
+					label: 'Utilizando o projeto',
+					autogenerate: { directory: 'utilizacao' },
+				},
+				{
+					label: 'Contribuindo para o Projeto',
+					autogenerate: { directory: 'contribuindo' },
 				},
 				{
 					label: 'Guides',
