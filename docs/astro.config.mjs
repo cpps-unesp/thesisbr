@@ -8,24 +8,26 @@ export default defineConfig({
 	base: '/thesisbr/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'ThesisBr',
+			social: [{ icon: 'github', label: 'GitHub', href: '/utilizacao/introducao' }],
 			sidebar: [
+				{
+					label: 'Apresentação',
+					autogenerate: { directory: 'thesisbr' },
+				},
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Teste Guide', slug: 'guides/teste' },
 					],
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
-				{
-					label: 'Apresentação',
-					autogenerate: { directory: 'thesisbr' },
-				},
+				
 			],
 		}),
 	],
