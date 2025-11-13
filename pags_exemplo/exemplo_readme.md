@@ -1,9 +1,6 @@
-# Título do Projeto (ThesisBR)
+# ThesisBR – Brazilian Theses & Dissertations
 
-Este é o nome do projeto. Ele descreve todo o projeto em uma frase e ajuda as pessoas a entenderem qual é o objetivo principal e a finalidade do projeto.
-
-# Descrição do Projeto
-O ThesisBR é uma iniciativa de ciência aberta que visa facilitar o acesso e utilização de dados de teses e dissertações brasileiras, com base no Catálogo de Teses e Dissertações da CAPES. O projeto busca combinar ferramentas de coleta automatizada, estruturação documental e enriquecimento semântico.
+O **ThesisBR** é uma iniciativa de ciência aberta que visa facilitar o **acesso e utilização de dados de teses e dissertações brasileiras**, com base no **Catálogo de Teses e Dissertações da CAPES**. O projeto busca combinar ferramentas de **coleta automatizada**, estruturação documental e enriquecimento semântico.
 
 ---
 
@@ -79,4 +76,4 @@ Isso será especialmente útil se você estiver desenvolvendo um projeto de cód
 Escreva testes para sua aplicação...
 
 ## Observações 
-(Texto sobre idioma)
+(Seu texto sobre idioma)
