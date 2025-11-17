@@ -28,37 +28,69 @@ Legenda de status:
 🔴 **Disseminação e Reuso**
 
 
-## Índice (Opcional)
+
+## Índice da Documentação
+
+### Sobre o projeto
+- [Introdução](#Introdução)
+- [Sobre a equipe](#sobre-a-equipe)
+- [FAQ](#faq)
+
+### Utilizando o projeto
+- [Introdução utilização](#introdução-utilização)
+- [Erros frequentes](#erros-frequentes)
+
+### Contribuindo para o projeto
+- [Introdução](#introdução-contribuindo)
+- [Como reportar bugs](#como-reportar-bugs)
+- [Com o que posso contribuir?](#CONTRIBUTING.md)
+- [Guia de estilo (padronização das contribuições)](#guia-de-estilo-padronização-das-contribuições)
+
+
 * [Como usar o projeto](#como-usar-o-projeto)
 * [Autores](#autores)
 * [Licença](#licença)
-* [Como contribuir](#como-contribuir-para-o-projeto)
-* [Testes](#testes)
+* [Obtendo ajuda](#obtendo-ajuda)
+* [Referências](#referências)
+* [Contato](#contato)
+* [Instalação](#instalação)
 
 
-## Como usar o projeto
 
 
+# Introdução
 
-## Autores
+# Sobre a equipe
+
+# Faq
+
+
+# Introdução Utilização
+
+# Erros frequentes
+
+
+# Introdução Contribuindo
+
+# Como reportar bugs 
+
+# Com o que posso contribuir?
+
+# Guia de estilo (padronização das contribuições)
+
+# Como usar o projeto
+
+# Autores
 - [@octokatherine](https://www.github.com/octokatherine)
 
-
-## Licença
-
+# Licença
 [MIT](https://choosealicense.com/licenses/mit/)
 
+# Obtendo ajuda
 
+# Referências
 
-## Como contribuir para o projeto
-
-
-## Testes
-
-
-
-## Observações 
-
+# Contato
 
 
 ## Instalação
